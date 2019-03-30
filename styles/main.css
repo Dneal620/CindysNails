@@ -61,12 +61,11 @@ body, #slider, .wrap, .slide-content{
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
-	background-attachment:fixed;
 }
 
-.slide1{background-image: url('../img/nails27.jpg')}
-.slide2{background-image: url('../img/nails10.jpg')}
-.slide3{background-image: url('../img/nails5.jpg')}
+.slide1{background-image: url('images/pic1.jpg')}
+.slide2{background-image: url('images/pic2.jpg')}
+.slide3{background-image: url('images/pic3.jpg')}
 
 .slide-content{
 	display:flex;
@@ -121,7 +120,7 @@ body, #slider, .wrap, .slide-content{
 }
 
 .pimg2{
-	background-image:url("./img/nails2.jpg");
+	background-image:url("../img/nails2.jpg");
 	min-height:80%;
 }
 
