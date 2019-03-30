@@ -61,6 +61,7 @@ body, #slider, .wrap, .slide-content{
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
+	background-attachment: fixed;
 }
 
 .slide1{background-image: url('../img/nails17.jpg')}
