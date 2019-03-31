@@ -96,7 +96,9 @@ body, #slider, .wrap, .slide-content{
 	border-color: transparent #fff transparent transparent;
 	left:0;
 	margin-left:30px;
-	
+	opacity:0;
+	transform:translateX(20px);
+	transition:all 0.7s ease-in-out;
 }
 
 #arrow-right{
@@ -104,7 +106,14 @@ body, #slider, .wrap, .slide-content{
 	border-color: transparent transparent transparent #fff;
 	right:0;
 	margin-right:30px;
-	
+	opacity:0;
+	transform:translateX(-20px);
+	transition:all 0.3s ease-in-out;
+}
+
+.isShowing{
+	opacity:1;
+	transform:translateX(0px);
 }
 
 .section{
@@ -209,6 +218,14 @@ body, #slider, .wrap, .slide-content{
 
 .section2 .s2wrapper .s2d3 p{
 	left:100px;
+}
+
+.section3{
+	display:flex;
+	flex-direction:column;
+	height:600px;
+	background-color:seashell;
+	opacity:0.8;
 }
 
 .gallery{

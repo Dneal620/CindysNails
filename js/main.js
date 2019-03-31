@@ -1,3 +1,24 @@
+//Scroll Event Listener
+function Scroll(){
+	let ypos = window.pageYOffset;
+	console.log(ypos);
+}
+
+window.addEventListener('scroll', Scroll);
+
+//Slider Arrow Animation
+
+function showArrows(){
+	let leftArrow = document.querySelector('#arrow-left');
+	let rightArrow = document.querySelector('#arrow-right');
+
+	leftArrow.style.opacity = "1";
+	leftArrow.style.transform = "translateX(0px)"
+	rightArrow.style.opacity = "1";
+	rightArrow.style.transform = "translateX(0px)"
+}
+
+window.addEventListener('load', showArrows());
 //nav programing
 let nav = document.querySelectorAll('.nav');
 
