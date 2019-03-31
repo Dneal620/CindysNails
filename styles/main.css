@@ -111,10 +111,7 @@ body, #slider, .wrap, .slide-content{
 	transition:all 0.3s ease-in-out;
 }
 
-.isShowing{
-	opacity:1;
-	transform:translateX(0px);
-}
+
 
 .section{
 	text-align:center;
@@ -160,9 +157,14 @@ body, #slider, .wrap, .slide-content{
 .section2{
 	display:flex;
 	flex-direction:column;
-	height:600px;
+	height:100%;
 	background-color:seashell;
 	opacity:0.8;
+}
+
+.s2header{
+	position:relative;
+	top:200px;
 }
 
 .section2 .s2wrapper{
@@ -192,6 +194,10 @@ body, #slider, .wrap, .slide-content{
 	margin:10px;
 	border-radius:50%;
 	position:relative;
+	top:200px;
+	opacity:0;
+	transform:translateX(20px);
+	transition:all 0.7s ease-in-out;
 }
 
 .section2 .s2wrapper .s2d2{
@@ -203,6 +209,10 @@ body, #slider, .wrap, .slide-content{
 	margin:10px;
 	border-radius:50%;
 	position:relative;
+	top:200px;
+	opacity:0;
+	transform:translateX(20px);
+	transition:all 0.7s ease-in-out;
 }
 
 .section2 .s2wrapper .s2d3{
@@ -214,6 +224,10 @@ body, #slider, .wrap, .slide-content{
 	margin:10px;
 	border-radius:50%;
 	position:relative;
+	top:200px;
+	opacity:0;
+	transform:translateX(20px);
+	transition:all 0.7s ease-in-out;
 }
 
 .section2 .s2wrapper .s2d3 p{
@@ -223,19 +237,30 @@ body, #slider, .wrap, .slide-content{
 .section3{
 	display:flex;
 	flex-direction:column;
-	height:600px;
+	height:100%;
 	background-color:seashell;
 	opacity:0.8;
 }
 
+.s3header{
+	position:relative;
+	top:200px;
+}
+
+.s4header{
+	position:relative;
+	top:200px;
+	margin-bottom:50px;
+}
 .gallery{
 	display:grid;
 	grid-template-columns:auto auto auto;
 	grid-template-rows:auto auto auto;
 	grid-gap:3px;
-	
 	justify-content:center;
-	margin-top:50px
+	position:relative;
+	top:200px;
+
 }
 
 .gallery div{
