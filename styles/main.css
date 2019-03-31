@@ -11,17 +11,21 @@ header{
 	z-index:999;
 }
 
+header img{
+	padding:10px 20px;
+}
+
 header ul{
 	display:flex;
-	justify-content:center;
+	justify-content:flex-end;
 	list-style:none;
+	margin-right:50px;
 
 }
 
 header ul li{
 	display:flex;
 	margin-left:20px;
-	margin-top:30px;
 	font-size:18px;
 	color:black;
 
@@ -32,7 +36,8 @@ header ul li a{
 	text-decoration:none;
 	color:black;
 	font-weight:bold;
-	margin-bottom:10px;
+	position:relative;
+	top:-40px;
 }
 
 header ul li a:hover{
@@ -164,7 +169,12 @@ body, #slider, .wrap, .slide-content{
 
 .s2header{
 	position:relative;
-	top:200px;
+	top:100px;
+}
+
+.s2header h1{
+	font-weight:bold;
+	font-size:56px;
 }
 
 .section2 .s2wrapper{
@@ -178,7 +188,7 @@ body, #slider, .wrap, .slide-content{
 
 .section2 .s2wrapper p{
 	position:absolute;
-	bottom:-50;
+	bottom:-75;
 	left:25%;
 	font-size:42px;
 	font-weight:bold;
@@ -244,12 +254,22 @@ body, #slider, .wrap, .slide-content{
 
 .s3header{
 	position:relative;
-	top:200px;
+	top:100px;
+}
+
+.s3header h1{
+	font-weight:bold;
+	font-size:56px;
 }
 
 .s4header{
 	position:relative;
-	top:200px;
+	top:100px;
+}
+
+.s4header h1{
+	font-weight:bold;
+	font-size:56px;
 	margin-bottom:50px;
 }
 .gallery{
