@@ -246,8 +246,8 @@ body, #slider, .wrap, .slide-content{
 .section3{
 	display:flex;
 	flex-direction:column;
-	height:100%;
-	background-color:seashell;
+	height:130%;
+	background-color:white;
 	opacity:0.8;
 }
 
@@ -261,12 +261,83 @@ body, #slider, .wrap, .slide-content{
 	font-size:56px;
 }
 
-.s4header{
+.s3wrapper{
+	display:grid;
+	grid-template-columns:auto auto;
+	grid-template-rows:auto auto auto;
+	grid-gap:3px;
+	justify-content:center;
+	position:relative;
+	top:200px;
+	font-size:32px;
+	font-style:italic;
+	
+}
+
+.s3wrapper div{
+	padding:40px 20px;
+}
+
+.s3d1{
+	font-size:125px;
+	color:pink;
+}
+
+.s3d4{
+	font-size:125px;
+	color:pink;
+}
+
+.s3d5{
+	font-size:125px;
+	color:pink;
+}
+
+
+
+.s4wrapper{
+	position:relative;
+	min-height:100%;
+	width:100%;
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../img/nails10.jpg");
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+
+.s4d1 p{
+	color:white;
+	font-size:36px;
+	font-style:italic;
+	position:relative;
+	top:200px;
+	left:100px;
+}
+
+.s4d2 p{
+	color:white;
+	font-size:36px;
+	font-style:italic;
+	position:relative;
+	top:300px;
+	left:175px;
+}
+
+.s4d3 p{
+	color:white;
+	font-size:36px;
+	font-style:italic;
+	position:relative;
+	top:400px;
+	left:250px;
+}
+.s5header{
 	position:relative;
 	top:100px;
 }
 
-.s4header h1{
+.s5header h1{
 	font-weight:bold;
 	font-size:56px;
 	margin-bottom:50px;
@@ -291,6 +362,14 @@ body, #slider, .wrap, .slide-content{
 
 .gallery div img:hover{
 	transform:scale(1.2, 1.2);
+}
+
+footer{
+	position:relative;
+	top:200px;
+	height:300px;
+	background-color:seashell;
+	
 }
 
 
