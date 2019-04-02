@@ -19,13 +19,12 @@ header ul{
 	display:flex;
 	justify-content:flex-end;
 	list-style:none;
-	margin-right:50px;
-
+	margin-right:125px;
 }
 
 header ul li{
 	display:flex;
-	margin-left:20px;
+	margin-left:40px;
 	font-size:18px;
 	color:black;
 
@@ -204,7 +203,7 @@ body, #slider, .wrap, .slide-content{
 	margin:10px;
 	border-radius:50%;
 	position:relative;
-	top:200px;
+	top:100px;
 	opacity:0;
 	transform:translateX(20px);
 	transition:all 0.7s ease-in-out;
@@ -219,7 +218,7 @@ body, #slider, .wrap, .slide-content{
 	margin:10px;
 	border-radius:50%;
 	position:relative;
-	top:200px;
+	top:100px;
 	opacity:0;
 	transform:translateX(20px);
 	transition:all 0.7s ease-in-out;
@@ -234,7 +233,7 @@ body, #slider, .wrap, .slide-content{
 	margin:10px;
 	border-radius:50%;
 	position:relative;
-	top:200px;
+	top:100px;
 	opacity:0;
 	transform:translateX(20px);
 	transition:all 0.7s ease-in-out;
