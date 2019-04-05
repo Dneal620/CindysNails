@@ -1,6 +1,8 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/innov216/public_html/
-    - /bin/cp * $DEPLOYPATH
+    - export DEPLOYPATH1=/home/innov216/public_html/
+    - export DEPLOYPATH2=/home/innov216/public_html/styles
+    - /bin/cp * $DEPLOYPATH1
+    - /bin/cp ./styles/* $DEPLOYPATH2
   
