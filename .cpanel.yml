@@ -2,5 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/innov216/public_html/
-    - /bin/cp -rf * $DEPLOYPATH
+    - /bin/cp -r * $DEPLOYPATH
   
