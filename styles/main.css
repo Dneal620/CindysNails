@@ -47,7 +47,11 @@ header ul li a:active{
 	color:pink;
 }
 
-
+.bigwrapper{
+	display:flex;
+	flex-direction:column;
+	overflow-x:hidden;
+}
 
 
 body, #slider, .wrap, .slide-content{
