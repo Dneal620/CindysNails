@@ -1,0 +1,10 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/innov216/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp contactus.html $DEPLOYPATH
+    - /bin/cp styles $DEPLOYPATH
+    - /bin/cp js $DEPLOYPATH
+    - /bin/cp img $DEPLOYPATH
+    - /bin/cp README.md $DEPLOYPATH
