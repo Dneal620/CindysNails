@@ -72,9 +72,9 @@ body, #slider, .wrap, .slide-content{
 	background-attachment: fixed;
 }
 
-.slide1{background-image: url('../img/nails17.jpg')}
-.slide2{background-image: url('../img/nails31.jpg')}
-.slide3{background-image: url('../img/nails12.jpg')}
+.slide1{background-image: url('../img/nails10.jpg')}
+.slide2{background-image: url('../img/nails27.jpg')}
+.slide3{background-image: url('../img/nails5.jpg')}
 
 .slide-content{
 	display:flex;
