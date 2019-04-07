@@ -1,0 +1,6 @@
+.modal{
+  background-image:url("../img/gallerybak.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  overflow-y:hidden;
+}

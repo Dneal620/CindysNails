@@ -368,6 +368,25 @@ body, #slider, .wrap, .slide-content{
 	transform:scale(1.2, 1.2);
 }
 
+.modal{
+	position:fixed;
+	top:0;
+	left:0;
+	overflow:hidden;
+	z-index:900;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.5);
+	
+}
+
+.modal-content{
+	background-color:#f4f4f4;
+	margin:20% auto;
+	width:80%;
+	height:60%;
+}
+
 footer{
 	position:relative;
 	top:200px;

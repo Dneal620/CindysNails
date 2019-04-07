@@ -95,7 +95,6 @@ let nav1 = document.querySelector('.nav1');
 let nav2 = document.querySelector('.nav2');
 let nav3 = document.querySelector('.nav3');
 let nav4 = document.querySelector('.nav4');
-let nav5 = document.querySelector('.nav5');
 let nav6 = document.querySelector('.nav6');
 
 
@@ -126,10 +125,7 @@ nav4.addEventListener('click', function(){
   nav4.style.color = 'pink';
 })
 
-nav5.addEventListener('click', function(){
-  resetNav();
-  nav5.style.color = 'pink';
-})
+
 
 nav6.addEventListener('click', function(){
   resetNav();
